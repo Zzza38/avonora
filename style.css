@@ -1,0 +1,50 @@
+/* Font-Face for Custom Font */
+@font-face {
+    font-family: 'C_BOX';
+    src: url('/media/fonts/C_BOX.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cherry Bomb One';
+    src: url('/media/fonts/CherryBombOne.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('/media/fonts/Comfortaa.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Comfortaa', Arial, sans-serif; /* Added fallback fonts for better compatibility */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Added a soft background to make elements pop */
+    overflow: hidden; /* Prevent unnecessary scrollbars */
+}
+
+/* Main Logo Styling */
+#main-logo {
+    height: auto;
+    width: 784px; /* Maintain a consistent, large width for high-resolution display */
+    padding: 32px; /* Maintain padding for visual separation */
+}
+#logo-text {
+    font-family: 'C_BOX';
+    font-size: 70px;
+    margin: 16px;
+}
+/* Info Section Styling */
+#info {
+    position: absolute;
+    top: 3%;
+    right: 5%; /* Positioned close to the main logo */
+    font-size: 64px; /* Slightly larger font size for 4K display */
+    text-align: right; /* Align text to the right for visual consistency */
+    line-height: 1.4; /* Increased line-height for readability */
+    width: fit-content; /* Prevents overflow */
+    color: #333; /* Darker color for contrast */
+}
+
+#sign {
+    font-family: 'Cherry Bomb One';
+    font-size: 128px;
+}
